@@ -27,7 +27,7 @@ const Navbar = () => {
                     {/*Aqui va el logo pero aun no hay */}
                    
                     </span>
-                    <span>Lethal Cooking</span>
+                    <span>BeetleJuice</span>
                   </span>
                 </Link>
 

@@ -1,6 +1,8 @@
 import Image from "next/image";
 import React from "react";
 import Container from "./container";
+import { Map, Marker } from "pigeon-maps"
+
 
 const Benefits = (props) => {
   const { data } = props;
@@ -49,6 +51,7 @@ const Benefits = (props) => {
           </div>
         </div>
       </Container>
+   
     </>
   );
 };

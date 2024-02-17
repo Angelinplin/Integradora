@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/layer-img.jpg";
+import React from "react"
 import { Toaster, toast } from "sonner";
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 lg:text-xl xl:text-2xl dark:text-gray-300">
               Lethal Cooking is a horror game set in a kitchen. You will have to
-              escape and try to survive. It is available now, buy it right away
+              escape and try to survive. It is available now, buy it right away.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
@@ -87,3 +88,5 @@ const Hero = () => {
 };
 
 export default Hero;
+
+
