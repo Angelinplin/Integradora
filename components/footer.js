@@ -89,7 +89,7 @@ export default function Footer() {
                 <Facebook />
               </a>
               <a
-                href="https://instagram.com/web3templates"
+                href="https://www.instagram.com/beetlejuice_51m/"
                 target="_blank"
                 rel="noopener">
                 <span className="sr-only">Instagram</span>
