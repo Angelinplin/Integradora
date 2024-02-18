@@ -23,9 +23,9 @@ const Navbar = () => {
                 <Link href="/">
                   <span className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
                     <span>
-                      
-                    {/*Aqui va el logo pero aun no hay */}
-                   
+
+                      {/*Aqui va el logo pero aun no hay */}
+
                     </span>
                     <span>BeetleJuice</span>
                   </span>
@@ -58,12 +58,13 @@ const Navbar = () => {
                   <>
                     {navigation.map((item, index) => (
                       <Link key={index} href="/" className="w-full px-4 py-2 -ml-4 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 dark:focus:bg-gray-800 focus:outline-none">
-                          {item}
+                        {item}
                       </Link>
                     ))}
-                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">         
-                        Buy Now
+                    <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
+                      Buy Now
                     </Link>
+
                   </>
                 </Disclosure.Panel>
               </div>
@@ -77,7 +78,7 @@ const Navbar = () => {
             {navigation.map((menu, index) => (
               <li className="mr-3 nav__item" key={index}>
                 <Link href="/" className="inline-block px-4 py-2 text-lg font-normal text-gray-800 no-underline rounded-md dark:text-gray-200 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-gray-800">
-                    {menu}
+                  {menu}
                 </Link>
               </li>
             ))}
@@ -85,11 +86,15 @@ const Navbar = () => {
         </div>
 
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
+          <button className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
+            Log In
+          </button>
           <Link href="https://beetlejuicestore.myshopify.com" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-              Buy Now
+            Buy Now
           </Link>
 
           <ThemeChanger />
+              
         </div>
       </nav>
     </div>
