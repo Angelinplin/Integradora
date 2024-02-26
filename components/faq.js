@@ -31,26 +31,27 @@ const Faq = () => {
       </div>
     </Container>
   );
-}
+};
 
 const faqdata = [
   {
-    question: "Is this template completely free to use?",
-    answer: "Yes, this template is completely free to use.",
-  },
-  {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
+    question: "What is the gameplay like in Lethal Cooking?",
     answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
+      "The gameplay in Lethal Cooking revolves around navigating through a terrifying kitchen environment while solving puzzles, avoiding hazards, and evading sinister entities lurking in the shadows.",
   },
   {
-    question: "Do you offer technical support? ",
+    question: "How do I play?",
+    answer: "To play Lethal Cooking, you'll need to navigate through the kitchen environment using the controls provided (VR controllers). Explore your surroundings, interact with objects, solve puzzles, and stay alert to survive the horrors that await.",
+  },
+  {
+    question: "Is Lethal Cooking suitable for all ages? ",
     answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+      "Lethal Cooking is intended for mature audiences due to its intense horror themes, jump scares, and unsettling atmosphere. It may not be suitable for younger players or those who are sensitive to horror content.",
+  },
+  {
+    question: "Can I play Lethal Cooking on consoles, or is it PC only? ",
+    answer:
+      "Lethal Cooking is currently available for PC only. We do not have plans for console releases at this time.",
   },
 ];
 

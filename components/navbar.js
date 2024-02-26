@@ -8,8 +8,6 @@ const Navbar = () => {
     "Product",
     "Features",
     "Pricing",
-    "Company",
-    "Blog",
   ];
 
   return (
@@ -25,6 +23,13 @@ const Navbar = () => {
                     <span>
 
                       {/*Aqui va el logo pero aun no hay */}
+                      <Image
+                        src="/img/Logo.png"
+                        alt="N"
+                        width="32"
+                        height="32"
+                        className="w-8 pointer-events-none"
+                      />
 
                     </span>
                     <span>BeetleJuice</span>
@@ -64,7 +69,7 @@ const Navbar = () => {
                     <Link href="/" className="w-full px-6 py-2 mt-3 text-center text-white bg-indigo-600 rounded-md lg:ml-5">
                       Buy Now
                     </Link>
-
+                      
                   </>
                 </Disclosure.Panel>
               </div>
@@ -89,10 +94,7 @@ const Navbar = () => {
           <button className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
             Log In
           </button>
-          <Link href="https://beetlejuicestore.myshopify.com" className="px-6 py-2 text-white bg-indigo-600 rounded-md md:ml-5">
-            Buy Now
-          </Link>
-
+          
           <ThemeChanger />
               
         </div>

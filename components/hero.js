@@ -25,7 +25,7 @@ const Hero = () => {
                     href="https://beetlejuicestore.myshopify.com"
                     class="text"
                   >
-                    Add To Cart
+                    Shop Online
                   </div>
                   <span class="icon">
                     <a href="https://beetlejuicestore.myshopify.com">
