@@ -11,9 +11,7 @@ import Footer from "../components/footer";
 import Faq from "../components/faq";
 import PopupWidget from "../components/popupWidget";
 import { Maps } from "../components/Maps";
-import Log from "./log";
-import { BrowserRouter } from "react-router-dom";
-import ReactDOM from "react-dom/client";
+
 
 const Home = () => {
   return (

@@ -2,7 +2,6 @@ import Image from "next/image";
 import Container from "./container";
 import heroImg from "../public/img/layer-img.jpg";
 import React from "react"
-import { Toaster, toast } from "sonner";
 
 const Hero = () => {
   return (
